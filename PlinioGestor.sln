@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlinioGestor", "PlinioGestor\PlinioGestor.csproj", "{1DDCDB36-6733-477D-8140-7D25AE2A447B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{82A17C56-3138-4779-812A-CFE48D5214CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1DDCDB36-6733-477D-8140-7D25AE2A447B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DDCDB36-6733-477D-8140-7D25AE2A447B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DDCDB36-6733-477D-8140-7D25AE2A447B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A17C56-3138-4779-812A-CFE48D5214CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A17C56-3138-4779-812A-CFE48D5214CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A17C56-3138-4779-812A-CFE48D5214CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A17C56-3138-4779-812A-CFE48D5214CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

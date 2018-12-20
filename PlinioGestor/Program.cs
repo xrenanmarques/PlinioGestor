@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PlinioGestor
 {
@@ -10,6 +6,8 @@ namespace PlinioGestor
     {
         static void Main(string[] args)
         {
+            Console.Write("Plínio Gestor\n\n--------------------------------\n\n1 - Cadastrar Cliente\n2 - Listar Cliente\n3 - Cadastrar Funcionário\n4 - Listar Funcionários");
+            Console.ReadKey();
         }
     }
 }
