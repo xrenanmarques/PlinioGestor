@@ -48,7 +48,18 @@ namespace PlinioGestor.Telas
 
         public void ListarClientes()
         {
+            Console.Clear();
 
+            Console.WriteLine("-- LISTAGEM DE CLIENTES --");
+
+            string[] linhas = GerenciadorArquivo.LerArquivo("cliente");
+
+            foreach (string linha in linhas)
+            {
+                Cliente cliente = Conversores.ClienteTexto.ConverterParaCliente(linha);
+
+                Console.WriteLine("NOME: " + cliente.Nome);
+            }
         }
     }
 }

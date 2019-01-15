@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conversores\ClienteTexto.cs" />
+    <Compile Include="Conversores\FuncionarioTexto.cs" />
     <Compile Include="Telas\ManterCliente.cs" />
     <Compile Include="Telas\ManterFuncionario.cs" />
     <Compile Include="Program.cs" />
