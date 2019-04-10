@@ -1,2 +1,2 @@
 # PlinioGestor
-Sistema Gestor C# Console App
+Sistema Gestor para controle de funcionários. C# Console App
